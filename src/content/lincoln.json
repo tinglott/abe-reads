@@ -1,0 +1,738 @@
+{
+  "id": "abraham-lincoln",
+  "title": "Abraham Lincoln",
+  "subtitle": "Reading Comprehension",
+  "legacyCode": "420G",
+  "source": "Converted from a MetaCard 2.1 stack (Reading Comp. / Abraham Lincoln, 420G)",
+  "readingLevel": "Grades 2-4",
+  "pages": [
+    {
+      "id": 1,
+      "image": "page-01",
+      "paragraphs": [
+        "Abraham Lincoln was born on February 12, 1809. He was born in a log cabin, on a farm in the state of Kentucky. He lived on this farm for two years.",
+        "Lincoln's father's name was Thomas. His mother's name was Nancy. Lincoln had one sister who was two years older. Her name was Sarah."
+      ]
+    },
+    {
+      "id": 2,
+      "image": "page-02",
+      "paragraphs": [
+        "When Lincoln was seven years old his family moved to Indiana. Lincoln was a strong boy. He helped his father build a log cabin.",
+        "Abraham Lincoln helped to cut down trees and he helped clear the fields so crops could be planted. When Abe was eight years old he was given an ax. He split many logs. They were used to build houses and fences."
+      ]
+    },
+    {
+      "id": 3,
+      "image": "page-03",
+      "paragraphs": [
+        "When Abraham Lincoln was nine years old his mother died from a disease. The pioneers called this disease \"milk sickness.\"",
+        "One year later his father remarried. Lincoln's new mother had three children. Abe enjoyed his new family. They later moved to Illinois."
+      ]
+    },
+    {
+      "id": 4,
+      "image": "page-04",
+      "paragraphs": [
+        "Abe Lincoln spent less than one year in school when he was a boy. He learned most of his reading, writing, and math at home.",
+        "Abe would often do his math problems on a board. He loved to read books. His family could not afford to buy books. Abe would often walk many miles to borrow books to read."
+      ]
+    },
+    {
+      "id": 5,
+      "image": "page-05",
+      "paragraphs": [
+        "When Lincoln was twenty-one years old he became a clerk in a store. He had a room in the back of the store to use as a bedroom. Lincoln became a lawyer when he was twenty-seven years old. He would sometimes walk twenty miles to borrow books to study law.",
+        "The people Abe worked with liked him. They knew he was honest and friendly. He was a great storyteller. People liked to listen to Lincoln speak."
+      ]
+    },
+    {
+      "id": 6,
+      "image": "page-06",
+      "paragraphs": [
+        "Later, Lincoln moved to Springfield, Illinois. There, he met and married Mary Todd. He was thirty- three years old. They had four sons.",
+        "One of their sons died when he was four years old. A second son died when he was eleven years old and a third son died when he was eighteen years old."
+      ]
+    },
+    {
+      "id": 7,
+      "image": "page-07",
+      "paragraphs": [
+        "In 1847, Lincoln became a United States congressman. He served one term. After his term he returned to Illinois.",
+        "In 1858, he wanted to become a senator. He lost the election, but became famous for debating his opponent. Lincoln was against slavery."
+      ]
+    },
+    {
+      "id": 8,
+      "image": "page-08",
+      "paragraphs": [
+        "In 1860, Lincoln ran for President of the United States. He won the election.",
+        "He was the President of the United States for a little more than five years. On March 4, 1861, he took his oath of office. Lincoln became the sixteenth President of the United States."
+      ]
+    },
+    {
+      "id": 9,
+      "image": "page-09",
+      "paragraphs": [
+        "This is what the flag of the United States looked like when Lincoln was President. It had thirty-three stars and thirteen stripes.",
+        "The flag is known as the \"Stars and Stripes\" or as \"Old Glory.\" Red stands for courage, blue stands for justice, and white stands for purity."
+      ]
+    },
+    {
+      "id": 10,
+      "image": "page-10",
+      "paragraphs": [
+        "The Civil War began one month after Abraham Lincoln became President. He did not approve of slavery. The southern states left the Union and formed the Confederate States of America.",
+        "They wanted to separate themselves from the northern states. Lincoln sent the militia in the North to fight against the South. He wanted to keep the Union together."
+      ]
+    },
+    {
+      "id": 11,
+      "image": "page-11",
+      "paragraphs": [
+        "Abraham Lincoln didn't want slavery to be allowed in the United States. He wanted everyone to be free.",
+        "He made speeches and promised to help people who would free their slaves."
+      ]
+    },
+    {
+      "id": 12,
+      "image": "page-12",
+      "paragraphs": [
+        "Lincoln signed a document called the \"Emancipation Proclamation.\" This proclamation helped to end slavery in the United States.",
+        "Eight months after Lincoln died, slavery ended."
+      ]
+    },
+    {
+      "id": 13,
+      "image": "page-13",
+      "paragraphs": [
+        "Abraham Lincoln was fifty-six years old when he died. He was at a theater, in Washington D.C., watching a performance.",
+        "While Abraham Lincoln and his wife were watching the performance a man by the name of John Wilkes Booth shot Lincoln in the head."
+      ]
+    },
+    {
+      "id": 14,
+      "image": "page-14",
+      "paragraphs": [
+        "Lincoln was carried to a house across the street.",
+        "President Abraham Lincoln died early on the morning of April 15, 1865."
+      ]
+    },
+    {
+      "id": 15,
+      "image": "page-15",
+      "paragraphs": [
+        "Abraham Lincoln is remembered favorably for his achievements as President of the United States.",
+        "He was a great speech maker. The \"Gettysburg Address\" is his most famous speech. Another famous speech was his second inaugural address. In this speech he urged \"malice toward none\" and \"charity for all.\""
+      ]
+    },
+    {
+      "id": 16,
+      "image": "page-16",
+      "paragraphs": [
+        "Abraham Lincoln is remembered for the \"Emancipation Proclamation.\" This declared that all slaves would be free. It helped to end all slavery in the United States.",
+        "Lincoln is also remembered for saving the Union during the Civil War."
+      ]
+    }
+  ],
+  "quizzes": {
+    "cloze": [
+      {
+        "id": "cz1",
+        "type": "cloze",
+        "prompt": "Abraham Lincoln was ______ in the state of Kentucky.",
+        "answer": "born",
+        "page": 1
+      },
+      {
+        "id": "cz2",
+        "type": "cloze",
+        "prompt": "Lincoln and his father built a log _____ for their family to live in.",
+        "answer": "cabin",
+        "page": 2
+      },
+      {
+        "id": "cz3",
+        "type": "cloze",
+        "prompt": "Lincoln's new mother had __________ children.",
+        "answer": "three",
+        "page": 3
+      },
+      {
+        "id": "cz4",
+        "type": "cloze",
+        "prompt": "Abe Lincoln would walk a long distance to borrow _________.",
+        "answer": "books",
+        "page": 4
+      },
+      {
+        "id": "cz5",
+        "type": "cloze",
+        "prompt": "Lincoln became a _____ at a store when he was twenty-one.",
+        "answer": "clerk",
+        "page": 5
+      },
+      {
+        "id": "cz6",
+        "type": "cloze",
+        "prompt": "Abraham Lincoln had _____ sons.",
+        "answer": "four",
+        "page": 6
+      },
+      {
+        "id": "cz7",
+        "type": "cloze",
+        "prompt": "Lincoln became _____ for debating the issue of slavery.",
+        "answer": "famous",
+        "page": 7
+      },
+      {
+        "id": "cz8",
+        "type": "cloze",
+        "prompt": "Lincoln ______ the election to become president of the U.S.",
+        "answer": "won",
+        "page": 8
+      },
+      {
+        "id": "cz9",
+        "type": "cloze",
+        "prompt": "The flag has _____ stripes.",
+        "answer": "thirteen",
+        "page": 9
+      },
+      {
+        "id": "cz10",
+        "type": "cloze",
+        "prompt": "The Civil War began one _____ after Lincoln became President.",
+        "answer": "month",
+        "page": 10
+      },
+      {
+        "id": "cz11",
+        "type": "cloze",
+        "prompt": "Lincoln did not want _______ to be allowed in the United States.",
+        "answer": "slavery",
+        "page": 11
+      },
+      {
+        "id": "cz12",
+        "type": "cloze",
+        "prompt": "Slavery ended ______ months after Lincoln died.",
+        "answer": "eight",
+        "page": 12
+      },
+      {
+        "id": "cz13",
+        "type": "cloze",
+        "prompt": "Lincoln was shot while watching a ______.",
+        "answer": "performance",
+        "page": 13
+      },
+      {
+        "id": "cz14",
+        "type": "cloze",
+        "prompt": "Lincoln was carried to a _____ across the street.",
+        "answer": "house",
+        "page": 14
+      },
+      {
+        "id": "cz15",
+        "type": "cloze",
+        "prompt": "Lincoln was a great _____ maker.",
+        "answer": "speech",
+        "page": 15
+      },
+      {
+        "id": "cz16",
+        "type": "cloze",
+        "prompt": "Lincoln helped to end ____ in the United States.",
+        "answer": "slavery",
+        "page": 16
+      }
+    ],
+    "easy": [
+      {
+        "id": "ez1",
+        "type": "mc",
+        "prompt": "Abraham Lincoln was born in the state of _______.",
+        "choices": [
+          "Illinois",
+          "Ohio",
+          "Kentucky"
+        ],
+        "answerIndex": 2,
+        "page": 1
+      },
+      {
+        "id": "ez2",
+        "type": "tf",
+        "prompt": "Lincoln and his father built a log cabin for their family to live in.",
+        "answer": true,
+        "page": 2
+      },
+      {
+        "id": "ez3",
+        "type": "mc",
+        "prompt": "Lincoln's new mother had _______ children.",
+        "choices": [
+          "three",
+          "two",
+          "four"
+        ],
+        "answerIndex": 0,
+        "page": 3
+      },
+      {
+        "id": "ez4",
+        "type": "mc",
+        "prompt": "Abe Lincoln would walk a long distance to borrow _________.",
+        "choices": [
+          "food",
+          "paper",
+          "books"
+        ],
+        "answerIndex": 2,
+        "page": 4
+      },
+      {
+        "id": "ez5",
+        "type": "tf",
+        "prompt": "Lincoln became a clerk at a hotel when he was twenty-one.",
+        "answer": false,
+        "page": 5
+      },
+      {
+        "id": "ez6",
+        "type": "mc",
+        "prompt": "Abraham Lincoln had _____ sons.",
+        "choices": [
+          "two",
+          "three",
+          "four"
+        ],
+        "answerIndex": 2,
+        "page": 6
+      },
+      {
+        "id": "ez7",
+        "type": "mc",
+        "prompt": "Lincoln became _____ for debating the issue of slavery.",
+        "choices": [
+          "disliked",
+          "famous",
+          "mean"
+        ],
+        "answerIndex": 1,
+        "page": 7
+      },
+      {
+        "id": "ez8",
+        "type": "tf",
+        "prompt": "Lincoln lost the election to become President of the U.S.",
+        "answer": false,
+        "page": 8
+      },
+      {
+        "id": "ez9",
+        "type": "mc",
+        "prompt": "The flag has ____ stripes.",
+        "choices": [
+          "twelve",
+          "thirteen",
+          "fourteen"
+        ],
+        "answerIndex": 1,
+        "page": 9
+      },
+      {
+        "id": "ez10",
+        "type": "mc",
+        "prompt": "The Civil War began one ______ after Lincoln became President.",
+        "choices": [
+          "day",
+          "month",
+          "year"
+        ],
+        "answerIndex": 1,
+        "page": 10
+      },
+      {
+        "id": "ez11",
+        "type": "tf",
+        "prompt": "Lincoln did not want slavery to be allowed in the U.S.",
+        "answer": true,
+        "page": 11
+      },
+      {
+        "id": "ez12",
+        "type": "mc",
+        "prompt": "Slavery ended _____ months after Lincoln died.",
+        "choices": [
+          "seven",
+          "eight",
+          "nine"
+        ],
+        "answerIndex": 1,
+        "page": 12
+      },
+      {
+        "id": "ez13",
+        "type": "mc",
+        "prompt": "Lincoln was shot while watching a ______.",
+        "choices": [
+          "performance",
+          "movie",
+          "television"
+        ],
+        "answerIndex": 0,
+        "page": 13
+      },
+      {
+        "id": "ez14",
+        "type": "tf",
+        "prompt": "Lincoln was carried to a hospital across the street.",
+        "answer": false,
+        "page": 14
+      },
+      {
+        "id": "ez15",
+        "type": "mc",
+        "prompt": "Lincoln was a great _____ maker.",
+        "choices": [
+          "speech",
+          "home",
+          "law"
+        ],
+        "answerIndex": 0,
+        "page": 15
+      },
+      {
+        "id": "ez16",
+        "type": "mc",
+        "prompt": "Lincoln helped to end all the _____ in the United States.",
+        "choices": [
+          "slavery",
+          "laws",
+          "taxes"
+        ],
+        "answerIndex": 0,
+        "page": 16
+      }
+    ],
+    "spelling": [
+      {
+        "id": "sp1",
+        "type": "mc",
+        "prompt": "Which word is spelled correctly?",
+        "choices": [
+          "fllag",
+          "flagg",
+          "flag"
+        ],
+        "answerIndex": 2,
+        "answer": "flag"
+      },
+      {
+        "id": "sp2",
+        "type": "mc",
+        "prompt": "Which word is spelled correctly?",
+        "choices": [
+          "Kentuky",
+          "Kentucky",
+          "kintucky"
+        ],
+        "answerIndex": 1,
+        "answer": "Kentucky"
+      },
+      {
+        "id": "sp3",
+        "type": "mc",
+        "prompt": "Which word is spelled correctly?",
+        "choices": [
+          "laws",
+          "laaws",
+          "lawss"
+        ],
+        "answerIndex": 0,
+        "answer": "laws"
+      },
+      {
+        "id": "sp4",
+        "type": "mc",
+        "prompt": "Which word is spelled correctly?",
+        "choices": [
+          "president",
+          "presedent",
+          "presadent"
+        ],
+        "answerIndex": 0,
+        "answer": "president"
+      },
+      {
+        "id": "sp5",
+        "type": "mc",
+        "prompt": "Which word is spelled correctly?",
+        "choices": [
+          "cabon",
+          "cabbin",
+          "cabin"
+        ],
+        "answerIndex": 2,
+        "answer": "cabin"
+      },
+      {
+        "id": "sp6",
+        "type": "mc",
+        "prompt": "Which word is spelled correctly?",
+        "choices": [
+          "free",
+          "fre",
+          "frea"
+        ],
+        "answerIndex": 0,
+        "answer": "free"
+      }
+    ],
+    "fill": [
+      {
+        "id": "fb1",
+        "type": "mc",
+        "prompt": "Lincoln was born in the state of (?).",
+        "choices": [
+          "Kentucky",
+          "New York",
+          "Kansas"
+        ],
+        "answerIndex": 0,
+        "answer": "Kentucky",
+        "page": 1
+      },
+      {
+        "id": "fb2",
+        "type": "mc",
+        "prompt": "Abe loved to read (?).",
+        "choices": [
+          "magazines",
+          "newspapers",
+          "books"
+        ],
+        "answerIndex": 2,
+        "answer": "books",
+        "page": 8
+      },
+      {
+        "id": "fb3",
+        "type": "mc",
+        "prompt": "Lincoln helped to make the (?) for the state of Illinois.",
+        "choices": [
+          "books",
+          "laws",
+          "flag"
+        ],
+        "answerIndex": 1,
+        "answer": "laws",
+        "page": 13
+      },
+      {
+        "id": "fb4",
+        "type": "mc",
+        "prompt": "Lincoln was the (?) president of the United States.",
+        "choices": [
+          "sixteenth",
+          "first",
+          "tenth"
+        ],
+        "answerIndex": 0,
+        "answer": "sixteenth",
+        "page": 16
+      },
+      {
+        "id": "fb5",
+        "type": "mc",
+        "prompt": "Lincoln wanted everyone to be (?).",
+        "choices": [
+          "free",
+          "slaves",
+          "married"
+        ],
+        "answerIndex": 0,
+        "answer": "free",
+        "page": 11
+      },
+      {
+        "id": "fb6",
+        "type": "mc",
+        "prompt": "Lincoln was a great (?).",
+        "choices": [
+          "doctor",
+          "fireman",
+          "storyteller"
+        ],
+        "answerIndex": 2,
+        "answer": "storyteller",
+        "page": 10
+      }
+    ],
+    "vocab": [
+      {
+        "id": "vc1",
+        "type": "mc",
+        "prompt": "A person who works in a store.",
+        "choices": [
+          "clerk",
+          "doctor",
+          "dentist"
+        ],
+        "answerIndex": 0,
+        "answer": "clerk",
+        "page": 9
+      },
+      {
+        "id": "vc2",
+        "type": "mc",
+        "prompt": "A place to learn to read and write.",
+        "choices": [
+          "playground",
+          "school",
+          "store"
+        ],
+        "answerIndex": 1,
+        "answer": "school",
+        "page": 7
+      },
+      {
+        "id": "vc3",
+        "type": "mc",
+        "prompt": "A person who knows and studies laws.",
+        "choices": [
+          "president",
+          "clerk",
+          "lawyer"
+        ],
+        "answerIndex": 2,
+        "answer": "lawyer",
+        "page": 9
+      },
+      {
+        "id": "vc4",
+        "type": "mc",
+        "prompt": "The states of the South during the Civil War.",
+        "choices": [
+          "Union",
+          "Confederate"
+        ],
+        "answerIndex": 1,
+        "answer": "Confederate",
+        "page": 10
+      },
+      {
+        "id": "vc5",
+        "type": "mc",
+        "prompt": "The highest office held in the United States.",
+        "choices": [
+          "president",
+          "king",
+          "governor"
+        ],
+        "answerIndex": 0,
+        "answer": "president",
+        "page": 16
+      },
+      {
+        "id": "vc6",
+        "type": "mc",
+        "prompt": "What the color red stands for on the U.S. flag.",
+        "choices": [
+          "justice",
+          "purity",
+          "courage"
+        ],
+        "answerIndex": 2,
+        "answer": "courage",
+        "page": 9
+      }
+    ],
+    "truefalse": [
+      {
+        "id": "tf1",
+        "type": "tf",
+        "prompt": "Lincoln was born on February 13, 1809.",
+        "answer": false,
+        "page": 1
+      },
+      {
+        "id": "tf2",
+        "type": "tf",
+        "prompt": "Abe was given a gun when he was 8 years old.",
+        "answer": false,
+        "page": 4
+      },
+      {
+        "id": "tf3",
+        "type": "tf",
+        "prompt": "John Wilkes Booth killed Lincoln.",
+        "answer": true,
+        "page": 13
+      },
+      {
+        "id": "tf4",
+        "type": "tf",
+        "prompt": "When Lincoln was President, the U.S. flag had 33 stars.",
+        "answer": true,
+        "page": 9
+      },
+      {
+        "id": "tf5",
+        "type": "tf",
+        "prompt": "Lincoln became president of the U.S.",
+        "answer": true,
+        "page": 16
+      },
+      {
+        "id": "tf6",
+        "type": "tf",
+        "prompt": "People called Lincoln, \"Honest Abe.\"",
+        "answer": true,
+        "page": 10
+      }
+    ],
+    "unscramble": [
+      {
+        "id": "us1",
+        "type": "text",
+        "prompt": "ionLncl",
+        "answer": "Lincoln"
+      },
+      {
+        "id": "us2",
+        "type": "text",
+        "prompt": "oskbo",
+        "answer": "books"
+      },
+      {
+        "id": "us3",
+        "type": "text",
+        "prompt": "nehtos",
+        "answer": "honest"
+      },
+      {
+        "id": "us4",
+        "type": "text",
+        "prompt": "wylear",
+        "answer": "lawyer"
+      },
+      {
+        "id": "us5",
+        "type": "text",
+        "prompt": "disentpre",
+        "answer": "president"
+      },
+      {
+        "id": "us6",
+        "type": "text",
+        "prompt": "haambrA",
+        "answer": "Abraham"
+      }
+    ]
+  }
+}
