@@ -16,6 +16,10 @@ app for **iOS, Android and web**.
 | **62** quiz questions | across 7 activity types |
 | **754** words of story text | levelled for grades 2–4 |
 
+| Home | Reader | Quiz | Grown-ups |
+|---|---|---|---|
+| ![Home](docs/home.png) | ![Reader](docs/reader.png) | ![Quiz](docs/quiz.png) | ![Dashboard](docs/grownups.png) |
+
 ### Activities
 - ⭐ **Quick Quiz** — multiple choice & true/false (16)
 - 🤔 **True or False** (6)
