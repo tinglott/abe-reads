@@ -116,6 +116,25 @@ Extracted content lives in [`src/content/lincoln.json`](src/content/lincoln.json
 Every cloze answer was programmatically verified to appear in its referenced
 story page, and every scramble verified as a true anagram.
 
+## Security note: `npm audit`
+
+`npm audit` reports vulnerabilities in this project. They were investigated and
+are **build-tooling only — none reach a user's device**:
+
+- Every flagged package (`xcode`, `uuid@7`, `metro*`, `@expo/cli`,
+  `@expo/config-plugins`, `image-size`) is a transitive dependency of the Expo
+  CLI, used when *building* the app.
+- The chain is `expo → @expo/config-plugins → xcode → uuid@7.0.3`. `xcode`
+  writes iOS project files during prebuild and never executes at runtime.
+- Verified against the built bundle: none of these appear in
+  `dist/_expo/static/js/web/entry-*.js`. The only `metro` match is the literal
+  string `"bundler":"metro"` in embedded app config.
+
+**Do not run `npm audit fix --force`.** It "fixes" these by downgrading
+Expo 57 → 53 and React Native 0.86 → 0.72 — four major versions backwards,
+which breaks peer dependencies across 22 packages and ships *older* code. The
+real fix arrives via normal Expo SDK upgrades.
+
 ## Adding another story
 
 The app is content-driven. Drop a new JSON pack matching the `ContentPack` type
