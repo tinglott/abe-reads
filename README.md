@@ -114,6 +114,8 @@ Settings → Access Tokens).
 - **Web:** `npm run build:web` → upload `dist/` to any static host (Netlify,
   Vercel, GitHub Pages, S3). The site is a fully working PWA-style reader.
 - **GitHub:** this repo. See below.
+- **Google Play:** full walkthrough in [`docs/PLAY_STORE.md`](docs/PLAY_STORE.md)
+  — service-account setup, tracks, and privacy policy.
 
 ## Optional: progress sync (Supabase)
 

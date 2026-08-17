@@ -6,3 +6,8 @@ web-build/
 .env
 .env.local
 .DS_Store
+
+# Secrets — never commit these
+google-service-account.json
+*.p8            # Apple App Store Connect API key
+fastlane/AuthKey*.p8
