@@ -34,6 +34,14 @@ export default function Home() {
           <Text style={styles.sub}>{pack.readingLevel}</Text>
         </View>
         <Pressable
+          onPress={() => router.push('/settings')}
+          accessibilityRole="button"
+          accessibilityLabel="Voice settings"
+          style={styles.gear}
+        >
+          <Text style={styles.gearIcon}>🎙️</Text>
+        </Pressable>
+        <Pressable
           onPress={() => router.push('/grownups')}
           accessibilityRole="button"
           accessibilityLabel="For grown-ups"

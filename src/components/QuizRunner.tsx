@@ -12,7 +12,7 @@ import * as Haptics from 'expo-haptics';
 import { Button, Card, ProgressBar } from './UI';
 import { theme } from '@/lib/theme';
 import { isCorrect, type Question } from '@/lib/content';
-import { useReadAloud } from '@/lib/useReadAloud';
+import { useTts } from '@/lib/TtsProvider';
 
 type Answer = string | number | boolean;
 
@@ -40,7 +40,7 @@ export function QuizRunner({ title, questions, onFinish, onExit }: QuizRunnerPro
   const [score, setScore] = useState(0);
   const [missed, setMissed] = useState<string[]>([]);
   const [chosen, setChosen] = useState<Answer | null>(null);
-  const { speaking, toggle } = useReadAloud();
+  const { speaking, toggle } = useTts();
 
   const q = questions[index];
   const total = questions.length;

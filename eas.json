@@ -1,0 +1,51 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "base": {
+      "node": "22.20.0",
+      "pnpm": "10.4.1",
+      "npm": "10.9.2",
+      "yarn": "1.22.22",
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "",
+        "EXPO_PUBLIC_HF_TOKEN": ""
+      }
+    },
+    "development": {
+      "extends": "base",
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "extends": "base",
+      "distribution": "internal",
+      "ios": { "simulator": true }
+    },
+    "production": {
+      "extends": "base",
+      "android": { "buildType": "app-bundle" },
+      "ios": { "autoIncrement": true }
+    },
+    "apk": {
+      "extends": "production",
+      "android": { "buildType": "apk" }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./google-service-account.json",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "",
+        "ascAppId": "",
+        "appleTeamId": ""
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ import { Button, Card, ProgressBar } from '@/components/UI';
 import { theme } from '@/lib/theme';
 import { pack, pageText } from '@/lib/content';
 import { storyImage } from '@/lib/images';
-import { useReadAloud } from '@/lib/useReadAloud';
+import { useTts } from '@/lib/TtsProvider';
 import { useProgress } from '@/lib/ProgressContext';
 
 /** Split into words but keep punctuation attached, so taps read a clean word. */
@@ -19,7 +19,7 @@ export default function Reader() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { markPageRead } = useProgress();
-  const { speaking, speak, stop, toggle } = useReadAloud();
+  const { speaking, speak, stop, toggle } = useTts();
   const [tapped, setTapped] = useState<string | null>(null);
 
   const total = pack.pages.length;
