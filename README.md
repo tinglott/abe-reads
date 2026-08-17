@@ -66,6 +66,55 @@ npm start          # then press i / a / w
 | `npm run typecheck` | TypeScript, no emit |
 | `npm run build:web` | static web bundle → `dist/` |
 
+## Voices: Microsoft Edge neural TTS
+
+Read-aloud uses **Microsoft's free Edge voices** (the same ones behind Edge's
+"Read Aloud"), which need **no API key and cost nothing**. At startup the app
+fetches the live voice list from Microsoft's public endpoint; pick one in
+**Voice settings** (🎙️ on the home screen).
+
+- Voices streamed over HTTPS; on a device with no internet it falls back to the
+  **on-device voice** (still fully functional).
+- The chosen voice is remembered on the device.
+- Implementation: [`src/lib/edgeTts.ts`](src/lib/edgeTts.ts) +
+  [`src/lib/TtsProvider.tsx`](src/lib/TtsProvider.tsx).
+
+> Note: these are *not* the Azure Cognitive Services paid voices. They are the
+> complimentary neural voices Edge uses for read-aloud, accessed the same way.
+
+## Building installable apps (no local Xcode/Android SDK needed)
+
+**You do not need Xcode.** Xcode is macOS-only and cannot run on Windows or
+Linux. Instead, builds happen on **Expo Application Services (EAS)** — free,
+open cloud build that compiles iOS on Apple's servers and Android on Linux.
+Your laptop only needs Node + npm + an Expo account.
+
+```bash
+npm install -g eas-cli        # or: npx eas-cli ...
+eas login                      # create a free account at expo.dev
+eas build:configure            # links this project (writes projectId into app.json)
+```
+
+| You want… | Command | Result |
+|---|---|---|
+| Test on your phone | `eas build --profile preview --platform android` | downloadable `.apk` |
+| Installable Android | `eas build --profile apk --platform android` | `.apk` you can share/side-load |
+| Play Store | `eas build --profile production --platform android` | `.aab` |
+| iPhone (you) | `eas build --profile preview --platform ios` | install via TestFlight/ADB-equivalent |
+| App Store | `eas build --profile production --platform ios` | `.ipa` for App Store Connect |
+
+Builds can also run from GitHub Actions (`.github/workflows/eas-build.yml`) on a
+`workflow_dispatch` or push — it needs an `EAS_BUILD_TOKEN` secret (Expo →
+Settings → Access Tokens).
+
+### Publishing
+
+- **Google Play / App Store:** `eas submit --platform android` / `eas submit
+  --platform ios` (fill the `submit` block in `eas.json` with your credentials).
+- **Web:** `npm run build:web` → upload `dist/` to any static host (Netlify,
+  Vercel, GitHub Pages, S3). The site is a fully working PWA-style reader.
+- **GitHub:** this repo. See below.
+
 ## Optional: progress sync (Supabase)
 
 1. Create a project at [supabase.com](https://supabase.com).
@@ -150,13 +199,33 @@ app/                    screens (expo-router)
   quiz/[key].tsx        quiz host
   bonus.tsx             AI-generated questions
   grownups.tsx          parent/teacher dashboard
+  settings.tsx          voice picker (Edge TTS vs on-device)
 src/
   components/           QuizRunner, ScoreCard, UI kit
   content/lincoln.json  recovered content pack
   lib/                  content, theme, storage, supabase, huggingface, TTS
 supabase/schema.sql     tables, RLS, reporting view
+eas.json                EAS build + submit profiles
+.github/workflows/      ci.yml (typecheck+web) and eas-build.yml
 assets/story/           16 recovered story panels
 ```
+
+## GitHub: push this repository
+
+The project is a complete local git repo. To publish it:
+
+1. Create an empty repo on GitHub (do **not** add a README — one exists).
+2. From this folder:
+   ```bash
+   git remote add origin https://github.com/<you>/abe-reads.git
+   git branch -M main
+   git push -u origin main
+   ```
+3. CI runs automatically (`ci.yml` typechecks and builds the web bundle on every
+   push). Use the **Build (EAS)** workflow's "Run workflow" button to trigger a
+   cloud build, or run `eas build` locally.
+
+No GitHub CLI is required — plain `git` is enough.
 
 ## Credits
 
